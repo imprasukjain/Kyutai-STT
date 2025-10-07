@@ -15,7 +15,7 @@ While developing an proprietary AI Bot, We encountered significant limitations w
 Kyutai Labs' STT-1B addresses these with a **streaming-native architecture** based on Delayed Streams Modeling (DSM). This model is built for low-latency, production-scale voice applications, offering:
 
 - **True Streaming Inference**: Processes audio in real time with configurable delays (as low as 0.5 seconds).
-- **Semantic Voice Activity Detection (VAD)**: Integrated into the model for automatic speech boundary detection—no extra post processing needed.
+- **Semantic Voice Activity Detection (VAD)**: Integrated into the model for automatic speech boundary detection no extra post processing needed.
 - **Word-Level Timestamps**: Native extraction without forced alignment.
 - **Efficiency and Scalability**: Supports batching for 400+ concurrent streams, with 40% lower peak memory usage compared to Whisper.
 - **Multilingual Capabilities**: Handles English and French with automatic language detection.
